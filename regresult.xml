@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+1524214289985,1531,AddingProject,200,OK,Todoist 1-1,text,true,,949,608,1,1,1531,0,1202
+1524214291531,141,TakeAllPjojects,200,OK,Todoist 1-1,text,true,,2469,270,1,1,141,0,0
+1524214291673,302,AddingTask,200,OK,Todoist 1-1,text,true,,949,609,1,1,302,0,0
+1524214291975,306,TakeAllItems,200,OK,Todoist 1-1,text,true,,2432,267,1,1,306,0,0
+1524214292282,480,CompletingTask,200,OK,Todoist 1-1,text,true,,806,414,1,1,480,0,242
+1524214292762,145,DeletingTask,200,OK,Todoist 1-1,text,true,,941,402,1,1,145,0,0
+1524214292908,232,TakeAll,200,OK,Todoist 1-1,text,true,,6411,265,1,1,232,0,0
+1524214293142,331,DeletingProject-,200,OK,Todoist 1-1,text,true,,806,361,1,1,331,0,0
