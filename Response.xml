@@ -1,9 +1,42 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
-1524214289985,1531,AddingProject,200,OK,Todoist 1-1,text,true,,949,608,1,1,1531,0,1202
-1524214291531,141,TakeAllPjojects,200,OK,Todoist 1-1,text,true,,2469,270,1,1,141,0,0
-1524214291673,302,AddingTask,200,OK,Todoist 1-1,text,true,,949,609,1,1,302,0,0
-1524214291975,306,TakeAllItems,200,OK,Todoist 1-1,text,true,,2432,267,1,1,306,0,0
-1524214292282,480,CompletingTask,200,OK,Todoist 1-1,text,true,,806,414,1,1,480,0,242
-1524214292762,145,DeletingTask,200,OK,Todoist 1-1,text,true,,941,402,1,1,145,0,0
-1524214292908,232,TakeAll,200,OK,Todoist 1-1,text,true,,6411,265,1,1,232,0,0
-1524214293142,331,DeletingProject-,200,OK,Todoist 1-1,text,true,,806,361,1,1,331,0,0
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="523" it="0" lt="523" ct="261" ts="1524554308637" s="true" lb="AddingProject" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="949" sby="608" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="143" it="0" lt="143" ct="0" ts="1524554309161" s="true" lb="TakeAllPjojects" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="3318" sby="270" ng="1" na="1"/>
+<httpSample t="305" it="0" lt="305" ct="0" ts="1524554309335" s="true" lb="AddingTask" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="949" sby="609" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="148" it="0" lt="148" ct="0" ts="1524554309641" s="true" lb="TakeAllItems" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="4504" sby="267" ng="1" na="1"/>
+<httpSample t="242" it="0" lt="242" ct="0" ts="1524554309790" s="true" lb="CompletingTask" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="806" sby="414" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="141" it="0" lt="141" ct="0" ts="1524554310033" s="true" lb="DeletingTask" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="941" sby="402" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="237" it="0" lt="237" ct="0" ts="1524554310175" s="true" lb="TakeAll" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="9561" sby="265" ng="1" na="1"/>
+<httpSample t="162" it="0" lt="162" ct="0" ts="1524554310413" s="true" lb="DeletingProject-" rc="200" rm="OK" tn="Todoist 1-1" dt="text" by="806" sby="361" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+
+</testResults>
