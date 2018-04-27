@@ -84,3 +84,47 @@ Caused by: java.io.IOException: CreateProcess error=2, The system cannot find th
 2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
 2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
 2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-04-27 16:57:29,968 INFO o.a.j.g.a.Load: Loading file: C:\Users\zdravko.petkov\Documents\GitHub\Todoist\Todoist.jmx
+2018-04-27 16:57:29,968 INFO o.a.j.s.FileServer: Set new base='C:\Users\zdravko.petkov\Documents\GitHub\Todoist'
+2018-04-27 16:57:30,122 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-04-27 16:57:30,153 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-04-27 16:57:30,153 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-04-27 16:57:30,153 INFO o.a.j.s.SaveService: Loading file: C:\Users\zdravko.petkov\Documents\GitHub\Todoist\Todoist.jmx
+2018-04-27 16:57:30,306 INFO o.a.j.s.FileServer: Set new base='C:\Users\zdravko.petkov\Documents\GitHub\Todoist'
+2018-04-27 17:30:55,395 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-04-27 17:30:55,395 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-04-27 17:30:55,395 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-04-27 17:30:56,164 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-04-27 17:30:56,433 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Todoist
+2018-04-27 17:30:56,433 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Todoist.
+2018-04-27 17:30:56,433 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-04-27 17:30:56,433 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-04-27 17:30:56,433 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-04-27 17:30:56,433 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-04-27 17:30:56,433 INFO o.a.j.t.JMeterThread: Thread started: Todoist 1-1
+2018-04-27 17:30:56,465 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = EN709043
+2018-04-27 17:30:56,465 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2018-04-27 17:30:56,612 INFO o.a.j.p.h.s.LazySchemeSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2018-04-27 17:30:56,630 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2018-04-27 17:30:56,630 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2018-04-27 17:30:56,997 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2018-04-27 17:30:56,997 INFO o.a.j.u.SSLManager: KeyStore created OK
+2018-04-27 17:30:56,997 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2018-04-27 17:31:00,070 INFO o.a.j.t.JMeterThread: Thread is done: Todoist 1-1
+2018-04-27 17:31:00,070 INFO o.a.j.t.JMeterThread: Thread finished: Todoist 1-1
+2018-04-27 17:31:00,070 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-04-27 17:31:00,085 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2018-04-27 17:32:13,230 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2018-04-27 17:32:13,230 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2018-04-27 17:32:13,230 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2018-04-27 17:32:13,331 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Todoist
+2018-04-27 17:32:13,331 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Todoist.
+2018-04-27 17:32:13,331 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2018-04-27 17:32:13,331 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
+2018-04-27 17:32:13,331 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2018-04-27 17:32:13,331 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2018-04-27 17:32:13,331 INFO o.a.j.t.JMeterThread: Thread started: Todoist 1-1
+2018-04-27 17:32:16,036 INFO o.a.j.t.JMeterThread: Thread is done: Todoist 1-1
+2018-04-27 17:32:16,036 INFO o.a.j.t.JMeterThread: Thread finished: Todoist 1-1
+2018-04-27 17:32:16,036 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2018-04-27 17:32:16,051 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
