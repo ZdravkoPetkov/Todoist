@@ -1,0 +1,86 @@
+2018-04-27 16:32:02,767 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-04-27 16:32:02,783 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2018-04-27 16:32:02,786 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: Version 3.2 r1790748
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: java.version=1.8.0_171
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) Client VM
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: os.name=Windows 10
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: os.arch=x86
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: os.version=10.0
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: file.encoding=Cp1251
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: Max memory     =536870912
+2018-04-27 16:32:02,816 INFO o.a.j.JMeter: Available Processors =4
+2018-04-27 16:32:02,836 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-04-27 16:32:02,836 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-04-27 16:32:02,836 INFO o.a.j.JMeter: JMeterHome=C:\Users\zdravko.petkov\Documents\GitHub\Todoist\apache-jmeter-3.2
+2018-04-27 16:32:02,836 INFO o.a.j.JMeter: user.dir  =C:\Users\zdravko.petkov\Documents\GitHub\Todoist\apache-jmeter-3.2\bin
+2018-04-27 16:32:02,836 INFO o.a.j.JMeter: PWD       =C:\Users\zdravko.petkov\Documents\GitHub\Todoist\apache-jmeter-3.2\bin
+2018-04-27 16:32:02,846 INFO o.a.j.JMeter: IP: 172.23.190.225 Name: EN709043 FullName: EN709043.mshome.net
+2018-04-27 16:32:03,537 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform]
+2018-04-27 16:32:03,537 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-04-27 16:32:04,378 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-04-27 16:32:04,378 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-04-27 16:32:05,309 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2018-04-27 16:32:05,919 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2018-04-27 16:32:05,949 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2018-04-27 16:32:05,969 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-27 16:32:05,969 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-27 16:32:05,969 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-27 16:32:05,969 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-04-27 16:32:05,969 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-04-27 16:32:05,969 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-04-27 16:32:06,259 ERROR o.a.j.e.KeyToolUtils: Exception checking for keytool existence, will return false
+java.io.IOException: Cannot run program "keytool": CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(Unknown Source) ~[?:1.8.0_171]
+	at org.apache.jorphan.exec.SystemCommand.run(SystemCommand.java:142) ~[jorphan.jar:3.2 r1790748]
+	at org.apache.jorphan.exec.SystemCommand.run(SystemCommand.java:125) ~[jorphan.jar:3.2 r1790748]
+	at org.apache.jorphan.exec.KeyToolUtils.checkKeytool(KeyToolUtils.java:436) ~[jorphan.jar:3.2 r1790748]
+	at org.apache.jorphan.exec.KeyToolUtils.<clinit>(KeyToolUtils.java:94) ~[jorphan.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.http.proxy.ProxyControl.<clinit>(ProxyControl.java:248) ~[ApacheJMeter_http.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.createPortPanel(ProxyControlGui.java:708) ~[ApacheJMeter_http.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.init(ProxyControlGui.java:664) ~[ApacheJMeter_http.jar:3.2 r1790748]
+	at org.apache.jmeter.protocol.http.proxy.gui.ProxyControlGui.<init>(ProxyControlGui.java:239) ~[ApacheJMeter_http.jar:3.2 r1790748]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_171]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_171]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.reflect.Constructor.newInstance(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.Class.newInstance(Unknown Source) ~[?:1.8.0_171]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:505) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:169) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:119) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:59) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at java.awt.event.InvocationEvent.dispatch(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEventImpl(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventQueue.access$500(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventQueue$3.run(Unknown Source) [?:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_171]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventQueue.dispatchEvent(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source) [?:1.8.0_171]
+	at java.awt.EventDispatchThread.run(Unknown Source) [?:1.8.0_171]
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method) ~[?:1.8.0_171]
+	at java.lang.ProcessImpl.<init>(Unknown Source) ~[?:1.8.0_171]
+	at java.lang.ProcessImpl.start(Unknown Source) ~[?:1.8.0_171]
+	... 35 more
+2018-04-27 16:32:06,582 INFO o.a.j.e.KeyToolUtils: keytool found at 'C:\Program Files (x86)\Java\jre1.8.0_171\bin\keytool'
+2018-04-27 16:32:06,583 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\zdravko.petkov\Documents\GitHub\Todoist\apache-jmeter-3.2\bin\proxyserver.jks
+2018-04-27 16:32:06,759 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2018-04-27 16:32:06,789 INFO o.a.j.s.FileServer: Default base='C:\Users\zdravko.petkov\Documents\GitHub\Todoist\apache-jmeter-3.2\bin'
+2018-04-27 16:32:06,899 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2018-04-27 16:32:06,899 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2018-04-27 16:32:07,750 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2018-04-27 16:32:07,770 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-04-27 16:32:07,919 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
