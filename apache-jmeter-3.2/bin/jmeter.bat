@@ -75,12 +75,12 @@ rem http://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html
 
 rem See the unix startup file for the rationale of the following parameters,
 rem including some tuning recommendations
-set HEAP=-Xms512m -Xmx512m
+set HEAP=-Xms4096m -Xmx4096m
 
 rem Uncomment this to generate GC verbose file
 rem set VERBOSE_GC=-verbose:gc -Xloggc:gc_jmeter_%p.log -XX:+PrintGCDetails -XX:+PrintGCCause -XX:+PrintTenuringDistribution -XX:+PrintHeapAtGC -XX:+PrintGCApplicationConcurrentTime -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps
 
-set GC_ALGO=-XX:+UseG1GC -XX:MaxGCPauseMillis=250 -XX:G1ReservePercent=20
+set GC_ALGO=-XX:+UseG1GC -XX:MaxGCPauseMillis=250 -XX:G1ReservePercent=10
 
 set SYSTEM_PROPS=-Djava.security.egd=file:/dev/urandom
 rem Always dump on OOM (does not cost anything unless triggered)

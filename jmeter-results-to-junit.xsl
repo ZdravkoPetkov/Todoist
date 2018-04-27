@@ -3,9 +3,9 @@
 	<xsl:output method="xml" indent="yes" encoding="UTF-8"/>
 	<xsl:template match="/testResults">
 		<testsuites>
-			<xsl:attribute name="name">PAPI Full Regression</xsl:attribute>
+			<xsl:attribute name="name">Todoist</xsl:attribute>
 			<testsuite>
-				<xsl:attribute name="name">PAPI Full Regression</xsl:attribute>
+				<xsl:attribute name="name">Todoist</xsl:attribute>
 				<xsl:for-each select="*">
 					<testcase>
 						<xsl:attribute name="classname"><xsl:value-of select="@tn"/></xsl:attribute>
